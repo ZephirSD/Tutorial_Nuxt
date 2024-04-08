@@ -9,6 +9,10 @@
                 <p class='text-xl my-7'>Prix {{ `${product.price}€` }}</p>
                 <h3 class='font-bold border-b-2 mb-4 pb-2'>Description: </h3>
                 <p class='mb-7'>{{ product.description }}</p>
+                <button class="btn flex">
+                    <i class="material-icons mr-2"></i>
+                    <span>Ajouter au panier</span>
+                </button>
             </div>
         </div>
 
